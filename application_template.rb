@@ -4,6 +4,7 @@ gem_group :development, :test do
   gem 'capybara'
   gem 'webdrivers'
   gem 'faker'
+  gem 'rexml'
 end
 
 initializer 'generators.rb', <<-CODE
